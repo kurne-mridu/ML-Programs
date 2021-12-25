@@ -83,8 +83,7 @@ airline['air'].plot(figsize = (12, 5), legend = True)
 forecast.plot(legend = True) 
 plt.savefig("result.png")
 
-#export the forecasted values
-forecast.to_csv("bhulbhal.csv")
+
 
 
 
